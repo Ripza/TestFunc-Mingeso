@@ -1,6 +1,6 @@
 TestFunc-Mingeso
 
-1.- Instalar Gecko (o el WebDriver que deseen y pueda usarse). Para Firefox:
+1.- Instalar Gecko (o el WebDriver que deseen y pueda usarse). Para Firefox en Ubuntu:
 
 	https://askubuntu.com/questions/870530/how-to-install-geckodriver-in-ubuntu
 
@@ -21,3 +21,7 @@ TestFunc-Mingeso
 8.- Crear la condición de validación de su test (en el ejemplo está en la linea 35 del Ejemplo.java)
 
 9.- Probar el test 
+
+Pro Tips : 
+- Estudiar cómo funcionan los xpath (en caso de ser necesario)
+- Buscar un WebDriver que no requiera abrir una ventana de navegador
