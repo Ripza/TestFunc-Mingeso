@@ -9,7 +9,6 @@ import org.openqa.selenium.support.ui.Select;
 
 public class Ejemplo {
   private WebDriver driver;
-  private String baseUrl;
   private boolean acceptNextAlert = true;
   private StringBuffer verificationErrors = new StringBuffer();
 
@@ -21,6 +20,9 @@ public class Ejemplo {
 
   @Test
   public void testEjemplo() throws Exception {
+      
+    // Aquí se realizan los pasos para llegar al sidebar del sitio UsachMovil
+    // Todo este codigo es autogenerado por Katalon
     driver.get("http://usach.umovil.cl/#/");
     driver.findElement(By.xpath("//div[@id='app']/div/div/div/div/div/div/div/div[3]/div")).click();
     driver.findElement(By.xpath("//div[@id='app']/div/div/div/div/div/div/div/div[3]/div")).click();
@@ -30,8 +32,12 @@ public class Ejemplo {
     driver.findElement(By.id("search")).sendKeys(Keys.ENTER);
     driver.findElement(By.xpath("//div[@id='app']/div/div/div/div/div/div/div/div[3]/div")).click();
     driver.findElement(By.xpath("//a[@id='btnft']/i")).click();
+    // Fin de codigo autogenerado
+    
+    // Buscamos el valor del lugar retornado en la pagina. Se Utiliza XPATH
     String result = driver.findElement(By.xpath("//ul[@id='slide-out']/ul/li[2]/div")).getText();
     
+    // Aquí verificamos que encontramos el resultado esperado al hacer el test
     if (result.contains("518")){
       System.out.println("Valor encontrado");
     } else {
