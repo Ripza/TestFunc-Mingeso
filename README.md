@@ -1,10 +1,12 @@
 TestFunc-Mingeso
 
-1.- Instalar Gecko (o el WebDriver que deseen y pueda usarse) 
+1.- Instalar Gecko (o el WebDriver que deseen y pueda usarse). Para Firefox:
 
-	Para Firefox:  https://askubuntu.com/questions/870530/how-to-install-geckodriver-in-ubuntu
+	https://askubuntu.com/questions/870530/how-to-install-geckodriver-in-ubuntu
 
 2.- Instalar plugin para Chrome o Firefox "Katalon automation recorder"
+
+	https://addons.mozilla.org/en-US/firefox/addon/katalon-automation-record/
 
 3.- Ingresar al plugin y crear un test funcional.
 
