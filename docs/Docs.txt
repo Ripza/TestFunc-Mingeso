@@ -1,4 +1,4 @@
-TestFunc-Mingeso
+
 
 1.- Instalar Gecko (o el WebDriver que deseen y pueda usarse) 
 
